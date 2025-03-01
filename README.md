@@ -48,7 +48,7 @@ pip install numpy scipy matplotlib
 - For Python: Run Jupyter Notebook or `.py` scripts.
   ```bash
   jupyter notebook
-  ''' 
+  
 ## 📚 Reference Books & Resources
 1. **Digital Signal Processing: Principles, Algorithms, and Applications** - John G. Proakis, Dimitris K Manolakis [🔗 Link](https://www.pearson.com/en-us/subject-catalog/p/digital-signal-processing-principles-algorithms-and-applications/P200000003409/9780137313520)
 2. **Understanding Digital Signal Processing** - Richard G. Lyons [🔗 Link](https://www.pearson.com/en-us/subject-catalog/p/understanding-digital-signal-processing/P200000003395/9780137643566)
