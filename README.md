@@ -21,8 +21,8 @@ I designed this repository to help students and enthusiasts understand and imple
 | 6  | **Properties of DFT** | Simulate and explore the Circular Convolution property exhibited by DFT operation on signals. |
 | 7  | **Effective Computation of DFT** | Perform FFT on a given input signal based on even and odd indexed separation to obtain the final results. |
 | 8  | **Linear Filtering of Long Sequences** | Perform Over-Add-Convolve operation on a given signal and cross verify the obtained results with the in-built convolution function. |
-| 9  | **FIR Filter** | Design an FIR low-pass filter for the given specifications, based on windowing technique using various windows such as Hanning, Hamming, Rectangular. |
-| 10  | **IIR Filter** | Design an analog low-pass Butterworth filter for the given specifications , convert it into a digital filter and observe the Impuluse response of the filter |
+| 9  | **FIR Filter** | Design an FIR low-pass filter for the given specifications, based on windowing technique using various windows such as Hanning, Hamming, Rectangular windows. |
+| 10  | **IIR Filter** | Design an analog low-pass Butterworth filter for the given specifications , convert it into a digital filter and observe the Impuse response of the filter. |
 
 ## 📂 Folder Structure
 ```
