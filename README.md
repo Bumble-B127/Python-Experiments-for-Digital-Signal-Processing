@@ -26,11 +26,13 @@ I designed this repository to help students and enthusiasts understand and imple
 
 ## 📂 Folder Structure
 ```
-📦 DSP-Experiments
  ┣ 📂 Experiment 2
  ┃ ┣ 📜 Experiment 2 - Generation of Basic signals.py
+ ┃ ┣ 📜 Experiment 2.docx
  ┣ 📂 Experiment 3
  ┃ ┣ 📜 Experiment 3 - Operation of Signals.py
+ ┃ ┣ 📜 Experiment 3.docx
+
  ┃ ...
 ```
 
