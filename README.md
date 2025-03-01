@@ -52,8 +52,8 @@ pip install numpy scipy matplotlib
 - For Python: Run Spyder or `.py` scripts.
   
 ## 📚 Reference Books & Resources
-1. **Digital Signal Processing: Principles, Algorithms, and Applications** - John G. Proakis, Dimitris K Manolakis [🔗 Link](https://mrce.in/ebooks/Digital%20Signal%20Processing%204th%20Ed.pdf)
-2. **Understanding Digital Signal Processing** - Richard G. Lyons [🔗 Link](https://www.iro.umontreal.ca/~mignotte/IFT3205/Documents/UnderstandingDigitalSignalProcessing.pdf)
+1. **Digital Signal Processing: Principles, Algorithms, and Applications** - John G. Proakis, Dimitris K Manolakis [Link](https://mrce.in/ebooks/Digital%20Signal%20Processing%204th%20Ed.pdf)
+2. **Understanding Digital Signal Processing** - Richard G. Lyons [Link](https://www.iro.umontreal.ca/~mignotte/IFT3205/Documents/UnderstandingDigitalSignalProcessing.pdf)
 
 ## 🤝 Contributing
 Want to contribute? Feel free to submit issues or pull requests! Let's build this repository together. ✨
