@@ -1,11 +1,12 @@
 # Digital Signal Processing (DSP) Experiments 
 
-Welcome to my **Digital Signal Processing (DSP) Experiments** repository! 🚀 This repository contains 10 experiments based on fundamental DSP concepts, implemented in Python.
+Welcome to my **Digital Signal Processing (DSP) Experiments** repository! 🚀 
+This repository contains 9 experiments based on fundamental DSP concepts, implemented in Python.
 
 ## 📌 Repository Overview
 I designed this repository to help students and enthusiasts understand and implement key DSP concepts through coding and visualization. Each experiment includes:
 - A well-structured python script 📝
-- Step-by-step explanations 🔍
+- Word document containing the code and ouput 🔍
 - Sample input/output visuals 📊
 - References to DSP textbooks 📚
 
@@ -13,47 +14,44 @@ I designed this repository to help students and enthusiasts understand and imple
 
 | #  | Experiment Title                      | Description |
 |----|--------------------------------|-------------|
-| 1  | **Signal Generation & Sampling** | Generate basic signals (sine, cosine, square wave) and understand sampling. |
-| 2  | **Aliasing Effect** | Demonstrate aliasing due to undersampling and Nyquist rate concepts. |
-| 3  | **Fourier Transform (DFT & FFT)** | Implement Discrete Fourier Transform and Fast Fourier Transform. |
-| 4  | **Filtering (LPF, HPF, BPF)** | Design and apply FIR & IIR filters. |
-| 5  | **Convolution & Correlation** | Perform linear convolution and cross-correlation of signals. |
-| 6  | **Z-Transform & Inverse Z-Transform** | Compute Z-transform and analyze system stability. |
-| 7  | **Digital Filter Design** | Implement window-based filter design techniques. |
-| 8  | **Modulation Techniques** | Simulate AM, FM, and PM modulation. |
-| 9  | **Wavelet Transform Basics** | Introduction to wavelet transform and multi-resolution analysis. |
-| 10 | **Real-time Signal Processing** | Process real-time audio signals using Python. |
+| 2  | **Generation of Basic signals** | Generate basic signals (sine, cosine, square wave, exponential) and understand sampling. |
+| 3  | **Operation of Signals** | Demonstrate basic signal operations such as addition, subtraction, multiplication concepts and visualise in spectral domain. |
+| 4  | **Convolution Sum** | Implement Convolution Operation using two signals. |
+| 5  | **Computation of DFT and IDFT** | Compute the DFT for a given signal and reconstruct the signal using IDFT. |
+| 6  | **Properties of DFT** | Simulate and explore the Circular Convolution property exhibited by DFT operation on signals. |
+| 7  | **Effective Computation of DFT** | Perform FFT on a given input signal based on even and odd indexed separation to obtain the final results. |
+| 8  | **Linear Filtering of Long Sequences** | Perform Over-Add-Convolve operation on a given signal and cross verify the obtained results with the in-built convolution function. |
+| 9  | **FIR Filter** | Design an FIR low-pass filter for the given specifications, based on windowing technique using various windows such as Hanning, Hamming, Rectangular. |
+| 10  | **IIR Filter** | Design an analog low-pass Butterworth filter for the given specifications , convert it into a digital filter and observe the Impuluse response of the filter |
 
 ## 📂 Folder Structure
 ```
 📦 DSP-Experiments
- ┣ 📂 Experiment-1
- ┃ ┣ 📜 signal_generation.py
- ┣ 📂 Experiment-2
- ┃ ┣ 📜 aliasing_effect.m
+ ┣ 📂 Experiment 2
+ ┃ ┣ 📜 Experiment 2 - Generation of Basic signals.py
+ ┣ 📂 Experiment 3
+ ┃ ┣ 📜 Experiment 3 - Operation of Signals.py
  ┃ ...
 ```
 
 ## 🔧 Installation & Setup
 ### Prerequisites
 Ensure you have the following installed:
-- Python 3.x (if using Python) 🐍
+- Python 3.x 🐍
+- Spyder IDE (or any other IDE that can run `.py` files)
 - NumPy, SciPy, Matplotlib libraries📦
+
+Install Spyder IDE from [here](https://www.spyder-ide.org)
 
 ```bash
 pip install numpy scipy matplotlib
 ```
-
 ### Running Experiments
-- For Python: Run Jupyter Notebook or `.py` scripts.
-  ```bash
-  jupyter notebook
+- For Python: Run Spyder or `.py` scripts.
   
 ## 📚 Reference Books & Resources
-1. **Digital Signal Processing: Principles, Algorithms, and Applications** - John G. Proakis, Dimitris K Manolakis [🔗 Link](https://www.pearson.com/en-us/subject-catalog/p/digital-signal-processing-principles-algorithms-and-applications/P200000003409/9780137313520)
-2. **Understanding Digital Signal Processing** - Richard G. Lyons [🔗 Link](https://www.pearson.com/en-us/subject-catalog/p/understanding-digital-signal-processing/P200000003395/9780137643566)
-3. **Schaum’s Outline of Digital Signal Processing** - Monson H. Hayes [🔗 Link](https://www.mhprofessional.com/9780071635097-usa-schaums-outline-of-digital-signal-processing-second-edition-group)
-4. **The Scientist & Engineer’s Guide to DSP** - Steven W. Smith (Free PDF) [🔗 Link](https://www.dspguide.com/pdfbook.htm)
+1. **Digital Signal Processing: Principles, Algorithms, and Applications** - John G. Proakis, Dimitris K Manolakis [🔗 Link](https://mrce.in/ebooks/Digital%20Signal%20Processing%204th%20Ed.pdf)
+2. **Understanding Digital Signal Processing** - Richard G. Lyons [🔗 Link](https://www.iro.umontreal.ca/~mignotte/IFT3205/Documents/UnderstandingDigitalSignalProcessing.pdf)
 
 ## 🤝 Contributing
 Want to contribute? Feel free to submit issues or pull requests! Let's build this repository together. ✨
